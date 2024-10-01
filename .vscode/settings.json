@@ -1,0 +1,15 @@
+{
+    // * Editor settings
+    "keyboard.dispatch": "keyCode",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "python.analysis.extraPaths": [
+        ".venv/lib/python3.12/site-packages/"
+    ],
+    "conventionalCommits.scopes": [
+        "deps",
+        "git"
+    ],
+}
